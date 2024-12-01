@@ -36,15 +36,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue[100],
-        leading: IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.menu, color: Colors.white, size: 24)),
-        title: const Text("211198", style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.black45,
+       title: const Text("211198", style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
         centerTitle: true,
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.settings, color: Colors.white, size: 24))],
       ),
       body: ItemGrid(items: items),
+      backgroundColor: Colors.white70,
     );
   }
 }

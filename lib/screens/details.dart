@@ -30,11 +30,9 @@ class _DetailsState extends State<Details> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Item Details"),
+        title: const Text("Details"),
       ),
-      body: item == null
-          ? const Center(child: CircularProgressIndicator()) // Loading state
-          : SingleChildScrollView(
+      body: SingleChildScrollView(
         physics: const BouncingScrollPhysics(),
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -44,8 +42,6 @@ class _DetailsState extends State<Details> {
               Center(
                 child: Image.network(
                   item!.image,
-                  height: 200,
-                  width: 200,
                   fit: BoxFit.cover,
                 ),
               ),

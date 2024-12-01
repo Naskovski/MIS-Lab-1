@@ -23,6 +23,13 @@ class ItemService {
       description: 'Trendy sneakers for casual outings.',
       price: 100.0,
     ),
+    Item(
+      id: 4,
+      name: 'Sweater',
+      image: 'https://www.jcrew.com/s7-img-facade/BU880_SR2394?hei=800&crop=0,0,600,0',
+      description: 'Warm winter sweater',
+      price: 139.0,
+    ),
   ];
 
   Future<List<Item>> getAllItems() async {
