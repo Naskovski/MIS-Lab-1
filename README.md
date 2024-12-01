@@ -1,6 +1,6 @@
 # lab1
 
-Lab 1 - Filip NAskovski 211198
+Lab 1 - Filip Naskovski 211198
 
 ## Getting Started
 
